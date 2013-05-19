@@ -42,36 +42,39 @@ namespace WindowsFormsApplication1
 
         public void clearFrom()
         {
-            // текстовое поле и label для d1  
-            d1.Visible = false;
-            d1_label.Visible = false;
-
-            // текстовое поле и label для d
-            d.Visible = false;
-            d_label.Visible = false;
-
+            
             // текстовое поле и label для hbBox
             comboBox2.Visible = false;
             hbBox_label.Visible = false;
+
+            // убираем d и d1
+            d1_label.Visible = false;
+            d_label.Visible = false;
+            d_label.Text = "d = ";
+            d1_label.Text = "d1 = ";
+            edit.Visible = false;
         }
 
-        public void showD1D()
-        {
-            // текстовое поле и label для d1  
-            d1.Visible = true;
-            d1_label.Visible = true;
-
-            // текстовое поле и label для d
-            d.Visible = true;
-            d_label.Visible = true;
-        }
+        
 
         public void showHb()
         {
             // текстовое поле и label для hbBox
             comboBox2.Visible = true;
-            //.Visible = true;
             hbBox_label.Visible = true;
+        }
+
+        public void showDs(string d, string d1)
+        {
+            // пояляем d и d1
+            d1_label.Visible = true;
+            d_label.Visible = true;
+
+            // записываем в них значения
+            d1_label.Text += d1;
+            d_label.Text += d;
+
+
         }
 
         private void rbClick(object sender, EventArgs e)
@@ -88,12 +91,36 @@ namespace WindowsFormsApplication1
                     {
                         // очищаем форму
                         clearFrom();
-                        // показываем то что нам надо
-                        // showD1D();
-
-                        popUpForCoefficient popUpForm = new popUpForCoefficient();
+                        // показываем кнопку редактирования
+                        edit.Visible = true;
+                        
+                        var popUpForm = new popUpForCoefficient(this);
                         popUpForm.ShowDialog();
+
                         coefficient = 1 + (Math.Pow((d1Val/dVal), 2));
+
+                        if (dVal != 0 || d1Val != 0)
+                        {
+                            coefficient = 1 + (Math.Pow((d1Val / dVal), 2));
+                            showDs(Convert.ToString(dVal), Convert.ToString(d1Val));
+                        }
+                        else
+                        {
+                            if (dVal == 0 && d1Val == 0)
+                            {
+                                showDs("Значение не установлено!", "Значение не установлено!");
+                            }
+                            else if (dVal == 0 && d1Val !=0)
+                            {
+                                showDs("Значение не установлено!", Convert.ToString(d1Val));
+                            }
+                            else if(d1Val==0 && dVal!=0)
+                            {
+                                showDs(Convert.ToString(dVal),"Значение не установлено!");
+                            }
+                            
+                        }
+
                     }
                     break;
                 case 3: //SquareRb
@@ -208,6 +235,19 @@ namespace WindowsFormsApplication1
             L.Text = Convert.ToString(dlina);
         }
 
+<<<<<<< HEAD
+=======
+        private void edit_Click(object sender, EventArgs e)
+        {
+            clearFrom();
+            edit.Visible = true;
+         //   var popUpForm = new popUpForCoefficient(this);
+           // popUpForm.ShowDialog();
+        }
+
+
+
+>>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
     }
 }
 

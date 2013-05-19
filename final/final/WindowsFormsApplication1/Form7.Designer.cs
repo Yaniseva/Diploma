@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.components = new System.ComponentModel.Container();
-            this.d1 = new System.Windows.Forms.TextBox();
-            this.d = new System.Windows.Forms.TextBox();
             this.d1_label = new System.Windows.Forms.Label();
             this.d_label = new System.Windows.Forms.Label();
+
             this.button1 = new System.Windows.Forms.Button();
             this.res = new System.Windows.Forms.TextBox();
             this.CircularRb = new System.Windows.Forms.RadioButton();
@@ -57,43 +57,15 @@
             this.L = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+=======
+            this.d_label = new System.Windows.Forms.Label();
+            this.d1_label = new System.Windows.Forms.Label();
+            this.edit = new System.Windows.Forms.Button();
+>>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // d1
-            // 
-            this.d1.Location = new System.Drawing.Point(324, 186);
-            this.d1.Name = "d1";
-            this.d1.Size = new System.Drawing.Size(116, 20);
-            this.d1.TabIndex = 4;
-            // 
-            // d
-            // 
-            this.d.Location = new System.Drawing.Point(324, 212);
-            this.d.Name = "d";
-            this.d.Size = new System.Drawing.Size(116, 20);
-            this.d.TabIndex = 5;
-            // 
-            // d1_label
-            // 
-            this.d1_label.AutoSize = true;
-            this.d1_label.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.d1_label.Location = new System.Drawing.Point(269, 193);
-            this.d1_label.Name = "d1_label";
-            this.d1_label.Size = new System.Drawing.Size(47, 13);
-            this.d1_label.TabIndex = 6;
-            this.d1_label.Text = "d1 = ";
-            // 
-            // d_label
-            // 
-            this.d_label.AutoSize = true;
-            this.d_label.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.d_label.Location = new System.Drawing.Point(269, 219);
-            this.d_label.Name = "d_label";
-            this.d_label.Size = new System.Drawing.Size(31, 13);
-            this.d_label.TabIndex = 7;
-            this.d_label.Text = "d =";
             // 
             // button1
             // 
@@ -121,7 +93,7 @@
             this.CircularRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CircularRb.Location = new System.Drawing.Point(4, 83);
             this.CircularRb.Name = "CircularRb";
-            this.CircularRb.Size = new System.Drawing.Size(80, 19);
+            this.CircularRb.Size = new System.Drawing.Size(79, 19);
             this.CircularRb.TabIndex = 0;
             this.CircularRb.Text = "Кольцевой";
             this.CircularRb.UseVisualStyleBackColor = true;
@@ -134,7 +106,7 @@
             this.RoundRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RoundRb.Location = new System.Drawing.Point(4, 33);
             this.RoundRb.Name = "RoundRb";
-            this.RoundRb.Size = new System.Drawing.Size(72, 19);
+            this.RoundRb.Size = new System.Drawing.Size(71, 19);
             this.RoundRb.TabIndex = 1;
             this.RoundRb.Text = "Круглый";
             this.RoundRb.UseVisualStyleBackColor = true;
@@ -304,7 +276,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(294, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(24, 13);
+            this.label8.Size = new System.Drawing.Size(23, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "A =";
             this.toolTip1.SetToolTip(this.label8, "Площадь поперечного сечения");
@@ -323,7 +295,7 @@
             this.label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label.Location = new System.Drawing.Point(731, 241);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(25, 15);
+            this.label.Size = new System.Drawing.Size(24, 15);
             this.label.TabIndex = 27;
             this.label.Text = "L =";
             this.toolTip1.SetToolTip(this.label, "Длина торсиона");
@@ -346,11 +318,42 @@
             this.comboBox2.TabIndex = 28;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_Click);
             // 
+            // d_label
+            // 
+            this.d_label.AutoSize = true;
+            this.d_label.Location = new System.Drawing.Point(289, 159);
+            this.d_label.Name = "d_label";
+            this.d_label.Size = new System.Drawing.Size(25, 13);
+            this.d_label.TabIndex = 29;
+            this.d_label.Text = "d = ";
+            // 
+            // d1_label
+            // 
+            this.d1_label.AutoSize = true;
+            this.d1_label.Location = new System.Drawing.Point(289, 186);
+            this.d1_label.Name = "d1_label";
+            this.d1_label.Size = new System.Drawing.Size(31, 13);
+            this.d1_label.TabIndex = 30;
+            this.d1_label.Text = "d1 = ";
+            // 
+            // edit
+            // 
+            this.edit.Location = new System.Drawing.Point(292, 202);
+            this.edit.Name = "edit";
+            this.edit.Size = new System.Drawing.Size(72, 19);
+            this.edit.TabIndex = 31;
+            this.edit.Text = "изменить";
+            this.edit.UseVisualStyleBackColor = true;
+            this.edit.Click += new System.EventHandler(this.edit_Click);
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 434);
+            this.Controls.Add(this.edit);
+            this.Controls.Add(this.d1_label);
+            this.Controls.Add(this.d_label);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label);
             this.Controls.Add(this.L);
@@ -371,10 +374,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.res);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.d_label);
-            this.Controls.Add(this.d1_label);
-            this.Controls.Add(this.d);
-            this.Controls.Add(this.d1);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "Form7";
@@ -388,10 +387,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox d1;
-        private System.Windows.Forms.TextBox d;
-        private System.Windows.Forms.Label d1_label;
-        private System.Windows.Forms.Label d_label;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox res;
         private System.Windows.Forms.RadioButton CircularRb;
@@ -416,6 +411,12 @@
         private System.Windows.Forms.TextBox L;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.ComboBox comboBox2;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolTip toolTip1;
+=======
+        private System.Windows.Forms.Label d_label;
+        private System.Windows.Forms.Label d1_label;
+        private System.Windows.Forms.Button edit;
+>>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
     }
 }
