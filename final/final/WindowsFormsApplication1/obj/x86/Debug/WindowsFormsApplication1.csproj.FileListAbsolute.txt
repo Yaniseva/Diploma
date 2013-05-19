@@ -1,0 +1,44 @@
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+c:\documents and settings\user.home-1af5b907ce\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\мои документы\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Рабочий стол\STUDY\Методологии диагностики Forms\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\User.HOME-1AF5B907CE\Мои документы\Downloads\final\final\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
