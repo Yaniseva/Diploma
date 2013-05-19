@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-
-            this.components = new System.ComponentModel.Container();
             this.d1_label = new System.Windows.Forms.Label();
             this.d_label = new System.Windows.Forms.Label();
-
             this.button1 = new System.Windows.Forms.Button();
             this.res = new System.Windows.Forms.TextBox();
             this.CircularRb = new System.Windows.Forms.RadioButton();
@@ -57,22 +54,43 @@
             this.L = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-
-            this.d_label = new System.Windows.Forms.Label();
-            this.d1_label = new System.Windows.Forms.Label();
             this.edit = new System.Windows.Forms.Button();
-
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dlinaShlic = new System.Windows.Forms.TextBox();
+            this.labelS = new System.Windows.Forms.Label();
+            this.diamSh = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // d1_label
+            // 
+            this.d1_label.AutoSize = true;
+            this.d1_label.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.d1_label.Location = new System.Drawing.Point(269, 183);
+            this.d1_label.Name = "d1_label";
+            this.d1_label.Size = new System.Drawing.Size(32, 15);
+            this.d1_label.TabIndex = 30;
+            this.d1_label.Text = "d1 = ";
+            // 
+            // d_label
+            // 
+            this.d_label.AutoSize = true;
+            this.d_label.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.d_label.Location = new System.Drawing.Point(269, 156);
+            this.d_label.Name = "d_label";
+            this.d_label.Size = new System.Drawing.Size(26, 15);
+            this.d_label.TabIndex = 29;
+            this.d_label.Text = "d = ";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(458, 361);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 40);
+            this.button1.Size = new System.Drawing.Size(132, 54);
             this.button1.TabIndex = 8;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -80,20 +98,18 @@
             // 
             // res
             // 
-            this.res.Location = new System.Drawing.Point(762, 274);
+            this.res.Location = new System.Drawing.Point(727, 177);
             this.res.Name = "res";
-            this.res.Size = new System.Drawing.Size(116, 20);
+            this.res.Size = new System.Drawing.Size(100, 20);
             this.res.TabIndex = 9;
-            this.toolTip1.SetToolTip(this.res, "Коэффициент, характеризующий рациональность использования материала при деформаци" +
-                    "и кручения");
             // 
             // CircularRb
             // 
             this.CircularRb.AutoSize = true;
             this.CircularRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CircularRb.Location = new System.Drawing.Point(4, 83);
+            this.CircularRb.Location = new System.Drawing.Point(6, 99);
             this.CircularRb.Name = "CircularRb";
-            this.CircularRb.Size = new System.Drawing.Size(79, 19);
+            this.CircularRb.Size = new System.Drawing.Size(80, 19);
             this.CircularRb.TabIndex = 0;
             this.CircularRb.Text = "Кольцевой";
             this.CircularRb.UseVisualStyleBackColor = true;
@@ -106,7 +122,7 @@
             this.RoundRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RoundRb.Location = new System.Drawing.Point(4, 33);
             this.RoundRb.Name = "RoundRb";
-            this.RoundRb.Size = new System.Drawing.Size(71, 19);
+            this.RoundRb.Size = new System.Drawing.Size(72, 19);
             this.RoundRb.TabIndex = 1;
             this.RoundRb.Text = "Круглый";
             this.RoundRb.UseVisualStyleBackColor = true;
@@ -117,7 +133,7 @@
             // 
             this.SquareRb.AutoSize = true;
             this.SquareRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SquareRb.Location = new System.Drawing.Point(7, 137);
+            this.SquareRb.Location = new System.Drawing.Point(6, 174);
             this.SquareRb.Name = "SquareRb";
             this.SquareRb.Size = new System.Drawing.Size(110, 19);
             this.SquareRb.TabIndex = 2;
@@ -132,9 +148,9 @@
             this.groupBox1.Controls.Add(this.RoundRb);
             this.groupBox1.Controls.Add(this.CircularRb);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(31, 119);
+            this.groupBox1.Location = new System.Drawing.Point(31, 75);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(224, 160);
+            this.groupBox1.Size = new System.Drawing.Size(220, 216);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Профиль";
@@ -185,45 +201,41 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(730, 276);
+            this.label4.Location = new System.Drawing.Point(695, 179);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 15);
             this.label4.TabIndex = 15;
             this.label4.Text = "K =";
-            this.toolTip1.SetToolTip(this.label4, "Коэффициент, характеризующий рациональность использования материала при деформаци" +
-                    "и кручения");
             // 
             // GBox
             // 
-            this.GBox.Location = new System.Drawing.Point(762, 300);
+            this.GBox.Location = new System.Drawing.Point(728, 201);
             this.GBox.Name = "GBox";
-            this.GBox.Size = new System.Drawing.Size(116, 20);
+            this.GBox.Size = new System.Drawing.Size(99, 20);
             this.GBox.TabIndex = 16;
-            this.toolTip1.SetToolTip(this.GBox, "Модуль упругости");
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(730, 302);
+            this.label5.Location = new System.Drawing.Point(695, 205);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 15);
             this.label5.TabIndex = 17;
             this.label5.Text = "G =";
-            this.toolTip1.SetToolTip(this.label5, "Модуль упругости");
             // 
             // strainBox
             // 
-            this.strainBox.Location = new System.Drawing.Point(762, 326);
+            this.strainBox.Location = new System.Drawing.Point(727, 227);
             this.strainBox.Name = "strainBox";
-            this.strainBox.Size = new System.Drawing.Size(116, 20);
+            this.strainBox.Size = new System.Drawing.Size(100, 20);
             this.strainBox.TabIndex = 18;
             // 
             // strait
             // 
             this.strait.AutoSize = true;
             this.strait.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.strait.Location = new System.Drawing.Point(668, 326);
+            this.strait.Location = new System.Drawing.Point(633, 229);
             this.strait.Name = "strait";
             this.strait.Size = new System.Drawing.Size(88, 15);
             this.strait.TabIndex = 19;
@@ -235,7 +247,6 @@
             this.Ccp.Name = "Ccp";
             this.Ccp.Size = new System.Drawing.Size(100, 20);
             this.Ccp.TabIndex = 20;
-            this.toolTip1.SetToolTip(this.Ccp, "Средняя жесткость подвески");
             // 
             // sn
             // 
@@ -250,7 +261,6 @@
             this.a.Name = "a";
             this.a.Size = new System.Drawing.Size(100, 20);
             this.a.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.a, "Площадь поперечного сечения");
             // 
             // label6
             // 
@@ -260,7 +270,6 @@
             this.label6.Size = new System.Drawing.Size(36, 13);
             this.label6.TabIndex = 23;
             this.label6.Text = "Сср =";
-            this.toolTip1.SetToolTip(this.label6, "Средняя жесткость подвески");
             // 
             // label7
             // 
@@ -276,29 +285,26 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(294, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 13);
+            this.label8.Size = new System.Drawing.Size(24, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "A =";
-            this.toolTip1.SetToolTip(this.label8, "Площадь поперечного сечения");
             // 
             // L
             // 
-            this.L.Location = new System.Drawing.Point(762, 239);
+            this.L.Location = new System.Drawing.Point(727, 151);
             this.L.Name = "L";
-            this.L.Size = new System.Drawing.Size(116, 20);
+            this.L.Size = new System.Drawing.Size(100, 20);
             this.L.TabIndex = 26;
-            this.toolTip1.SetToolTip(this.L, "Длина торсиона");
             // 
             // label
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label.Location = new System.Drawing.Point(731, 241);
+            this.label.Location = new System.Drawing.Point(696, 151);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(24, 15);
+            this.label.Size = new System.Drawing.Size(25, 15);
             this.label.TabIndex = 27;
             this.label.Text = "L =";
-            this.toolTip1.SetToolTip(this.label, "Длина торсиона");
             // 
             // comboBox2
             // 
@@ -318,39 +324,91 @@
             this.comboBox2.TabIndex = 28;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_Click);
             // 
-            // d_label
-            // 
-            this.d_label.AutoSize = true;
-            this.d_label.Location = new System.Drawing.Point(289, 159);
-            this.d_label.Name = "d_label";
-            this.d_label.Size = new System.Drawing.Size(25, 13);
-            this.d_label.TabIndex = 29;
-            this.d_label.Text = "d = ";
-            // 
-            // d1_label
-            // 
-            this.d1_label.AutoSize = true;
-            this.d1_label.Location = new System.Drawing.Point(289, 186);
-            this.d1_label.Name = "d1_label";
-            this.d1_label.Size = new System.Drawing.Size(31, 13);
-            this.d1_label.TabIndex = 30;
-            this.d1_label.Text = "d1 = ";
-            // 
             // edit
             // 
-            this.edit.Location = new System.Drawing.Point(292, 202);
+            this.edit.BackColor = System.Drawing.Color.Transparent;
+            this.edit.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.edit.Location = new System.Drawing.Point(257, 201);
             this.edit.Name = "edit";
-            this.edit.Size = new System.Drawing.Size(72, 19);
+            this.edit.Size = new System.Drawing.Size(82, 33);
             this.edit.TabIndex = 31;
-            this.edit.Text = "изменить";
-            this.edit.UseVisualStyleBackColor = true;
+            this.edit.Text = "Изменить";
+            this.edit.UseVisualStyleBackColor = false;
             this.edit.Click += new System.EventHandler(this.edit_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(850, 235);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "МПа";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(850, 203);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(32, 13);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "МПа";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(430, 30);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.TabIndex = 34;
+            this.label9.Text = "H/m";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(573, 262);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(148, 15);
+            this.label10.TabIndex = 35;
+            this.label10.Text = "Длина шлицевой части =";
+            // 
+            // dlinaShlic
+            // 
+            this.dlinaShlic.Location = new System.Drawing.Point(727, 262);
+            this.dlinaShlic.Name = "dlinaShlic";
+            this.dlinaShlic.Size = new System.Drawing.Size(100, 20);
+            this.dlinaShlic.TabIndex = 36;
+            // 
+            // labelS
+            // 
+            this.labelS.AutoSize = true;
+            this.labelS.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelS.Location = new System.Drawing.Point(560, 299);
+            this.labelS.Name = "labelS";
+            this.labelS.Size = new System.Drawing.Size(161, 15);
+            this.labelS.TabIndex = 37;
+            this.labelS.Text = "Диаметр шлицевой части =";
+            // 
+            // diamSh
+            // 
+            this.diamSh.Location = new System.Drawing.Point(727, 294);
+            this.diamSh.Name = "diamSh";
+            this.diamSh.Size = new System.Drawing.Size(100, 20);
+            this.diamSh.TabIndex = 38;
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 434);
+            this.ClientSize = new System.Drawing.Size(965, 446);
+            this.Controls.Add(this.diamSh);
+            this.Controls.Add(this.labelS);
+            this.Controls.Add(this.dlinaShlic);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.edit);
             this.Controls.Add(this.d1_label);
             this.Controls.Add(this.d_label);
@@ -411,11 +469,16 @@
         private System.Windows.Forms.TextBox L;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.ComboBox comboBox2;
-
         private System.Windows.Forms.ToolTip toolTip1;
-
         private System.Windows.Forms.Label d_label;
         private System.Windows.Forms.Label d1_label;
         private System.Windows.Forms.Button edit;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox dlinaShlic;
+        private System.Windows.Forms.Label labelS;
+        private System.Windows.Forms.TextBox diamSh;
     }
 }

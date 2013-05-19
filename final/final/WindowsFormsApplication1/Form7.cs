@@ -34,6 +34,8 @@ namespace WindowsFormsApplication1
         public double deff;
         public double dVal;
         public double d1Val;
+        public double dlS;
+        public double diamS;
 
         public void parse()
         {
@@ -54,8 +56,6 @@ namespace WindowsFormsApplication1
             d1_label.Text = "d1 = ";
             edit.Visible = false;
         }
-
-        
 
         public void showHb()
         {
@@ -229,10 +229,18 @@ namespace WindowsFormsApplication1
             }
 
             dlina = ((2*stiffness*deff*deff*G)/(coefficient*strain));
-            res.Text = Convert.ToString(coefficient);
+            res.Text = Convert.ToString(Math.Round(coefficient,3));
             GBox.Text = Convert.ToString(G);
-            strainBox.Text = Convert.ToString(strain);
-            L.Text = Convert.ToString(dlina);
+            strainBox.Text = Convert.ToString(Math.Round(strain,3));
+            L.Text = Convert.ToString(Math.Round(dlina,3));
+
+            dlS = 0.51 *dVal;
+            diamS = 1.2 * dVal;
+
+            dlinaShlic.Text = Convert.ToString(Math.Round(dlS,1));
+            diamSh.Text = Convert.ToString(Math.Round(diamS,1));
+
+
         }
 
         private void edit_Click(object sender, EventArgs e)
