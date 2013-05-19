@@ -198,7 +198,7 @@ namespace WindowsFormsApplication1
                 double.TryParse(a.Text, out area);
             }
             else {
-                MessageBox.Show("Ошибка!", "Пустое значение");
+                MessageBox.Show("Пустые значения!", "Error");
             }
 
             dlina = ((2*stiffness*deff*deff*G)/(coefficient*strain));

@@ -41,9 +41,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 70);
+            this.button1.Location = new System.Drawing.Point(36, 87);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 28);
+            this.button1.Size = new System.Drawing.Size(224, 36);
             this.button1.TabIndex = 0;
             this.button1.Text = "Строительные машины";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,20 +51,20 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(32, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 39);
+            this.label1.Size = new System.Drawing.Size(265, 46);
             this.label1.TabIndex = 1;
             this.label1.Text = "Методолгоии диагностики";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(34, 124);
+            this.button2.Location = new System.Drawing.Point(36, 141);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(224, 28);
+            this.button2.Size = new System.Drawing.Size(224, 36);
             this.button2.TabIndex = 2;
             this.button2.Text = "Диагностика машины в целом";
             this.button2.UseVisualStyleBackColor = true;
@@ -72,18 +72,18 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(34, 170);
+            this.button3.Location = new System.Drawing.Point(36, 197);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(224, 25);
+            this.button3.Size = new System.Drawing.Size(224, 36);
             this.button3.TabIndex = 3;
             this.button3.Text = "Диагностика двигателя";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(34, 211);
+            this.button4.Location = new System.Drawing.Point(36, 252);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(224, 26);
+            this.button4.Size = new System.Drawing.Size(224, 36);
             this.button4.TabIndex = 4;
             this.button4.Text = "Диагностика трансмиссии";
             this.button4.UseVisualStyleBackColor = true;
