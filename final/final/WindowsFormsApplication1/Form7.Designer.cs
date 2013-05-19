@@ -57,13 +57,13 @@
             this.L = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-<<<<<<< HEAD
+
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-=======
+
             this.d_label = new System.Windows.Forms.Label();
             this.d1_label = new System.Windows.Forms.Label();
             this.edit = new System.Windows.Forms.Button();
->>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
+
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 

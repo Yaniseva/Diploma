@@ -235,8 +235,6 @@ namespace WindowsFormsApplication1
             L.Text = Convert.ToString(dlina);
         }
 
-<<<<<<< HEAD
-=======
         private void edit_Click(object sender, EventArgs e)
         {
             clearFrom();
@@ -245,9 +243,6 @@ namespace WindowsFormsApplication1
            // popUpForm.ShowDialog();
         }
 
-
-
->>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
     }
 }
 
