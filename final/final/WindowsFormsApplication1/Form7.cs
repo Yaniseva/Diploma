@@ -32,7 +32,8 @@ namespace WindowsFormsApplication1
         public double area;
         public double deff;
 
-        public void parse() {
+        public void parse()
+        {
             double.TryParse(a.Text, out area);
         }
 
@@ -40,30 +41,21 @@ namespace WindowsFormsApplication1
         {
             switch (n)
             {
-                
                 case 2: //RoundRb
                     {
                         coefficient = 1;
                     }
                     break;
-
                 case 1: //CircularRb
                     {
-                        //double.TryParse(d1.Text, out diametr1);
-                        //double.TryParse(d.Text, out diametr2);
+                        double.TryParse(d1.Text, out diametr1);
+                        double.TryParse(d.Text, out diametr2);
                         //double.TryParse(Ccp.Text, out stiffness);
                         //double.TryParse(sn.Text, out deff);
-                        //double sum = diametr1 + diametr2;
-                        //coefficient = 1 + Math.Pow(sum, 2);
                         coefficient = 2;
-                        dlina = (stiffness*Math.Pow(deff,2)*2*G);
-                        //dlina = (stiffness * Math.Pow(deff, 2) * 2 * G) / (area * coefficient * strain);
-
+                        dlina = (stiffness * Math.Pow(deff, 2) * 2 * G);
                     }
                     break;
-
-                
-
                 case 3: //SquareRb
                     {
                         string hb1;
@@ -85,14 +77,12 @@ namespace WindowsFormsApplication1
                             case "4":
                                 coefficient = 0.567;
                                 break;
-
                         }
-                        
                     }
-
                     break;
+                default:
+                    MessageBox.Show("Error", "Не выбран коэффициент"); break;
             }
-
         }
 
         private void comboBox_Click(object sender, EventArgs e)
@@ -142,14 +132,15 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             res.Text = Convert.ToString(coefficient);
             GBox.Text = Convert.ToString(G);
             strainBox.Text = Convert.ToString(strain);
             L.Text = Convert.ToString(dlina);
         }
 
-       }
+    }
 }
 
 
-    
+
