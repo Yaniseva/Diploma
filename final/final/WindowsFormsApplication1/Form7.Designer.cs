@@ -411,12 +411,11 @@
         private System.Windows.Forms.TextBox L;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.ComboBox comboBox2;
-<<<<<<< HEAD
+
         private System.Windows.Forms.ToolTip toolTip1;
-=======
+
         private System.Windows.Forms.Label d_label;
         private System.Windows.Forms.Label d1_label;
         private System.Windows.Forms.Button edit;
->>>>>>> 14e9b423a7347d1b9410256ebbcc51b9f1b1e05e
     }
 }
