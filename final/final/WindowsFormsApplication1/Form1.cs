@@ -35,5 +35,11 @@ namespace WindowsFormsApplication1
             diagn.ShowDialog();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form7 p = new Form7();
+            p.ShowDialog();
+        }
+
           }
 }
