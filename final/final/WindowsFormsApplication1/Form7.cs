@@ -32,6 +32,8 @@ namespace WindowsFormsApplication1
         public double stiffness;
         public double area;
         public double deff;
+        public double dVal;
+        public double d1Val;
 
         public void parse()
         {
@@ -87,14 +89,24 @@ namespace WindowsFormsApplication1
                         // очищаем форму
                         clearFrom();
                         // показываем то что нам надо
-                        showD1D();
+                        // showD1D();
 
-                        double.TryParse(d1.Text, out diametr1);
-                        double.TryParse(d.Text, out diametr2);
+                        popUpForCoefficient popUpForm = new popUpForCoefficient();
+                        popUpForm.ShowDialog();
+
+
+                        coefficient = 1 + (Math.Pow((d1Val/dVal), 2));
+
+                        //if ((d1.Text != "") && (d.Text != ""))
+                        //{
+                        //    double.TryParse(d1.Text, out diametr1);
+                        //    double.TryParse(d.Text, out diametr2);
+                        //}
+
                         //double.TryParse(Ccp.Text, out stiffness);
                         //double.TryParse(sn.Text, out deff);
-                        coefficient = 2;
-                        dlina = (stiffness * Math.Pow(deff, 2) * 2 * G);
+                        //coefficient = 2;
+                        //dlina = (stiffness * Math.Pow(deff, 2) * 2 * G);
                     }
                     break;
                 case 3: //SquareRb
@@ -104,6 +116,7 @@ namespace WindowsFormsApplication1
                         // показываем то что нам надо
                         showHb();
                         break;
+
                     }
             }
         }
@@ -177,7 +190,7 @@ namespace WindowsFormsApplication1
             L.Text = Convert.ToString(dlina);
         }
 
-        
+
 
     }
 }
