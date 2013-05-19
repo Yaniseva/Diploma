@@ -93,20 +93,7 @@ namespace WindowsFormsApplication1
 
                         popUpForCoefficient popUpForm = new popUpForCoefficient();
                         popUpForm.ShowDialog();
-
-
                         coefficient = 1 + (Math.Pow((d1Val/dVal), 2));
-
-                        //if ((d1.Text != "") && (d.Text != ""))
-                        //{
-                        //    double.TryParse(d1.Text, out diametr1);
-                        //    double.TryParse(d.Text, out diametr2);
-                        //}
-
-                        //double.TryParse(Ccp.Text, out stiffness);
-                        //double.TryParse(sn.Text, out deff);
-                        //coefficient = 2;
-                        //dlina = (stiffness * Math.Pow(deff, 2) * 2 * G);
                     }
                     break;
                 case 3: //SquareRb
@@ -132,11 +119,28 @@ namespace WindowsFormsApplication1
             switch (tmp)
             {
                 case "1":
-                    coefficient = 0.658;
+                    coefficient = 0.618;
                     break;
-
                 case "1.5":
-                    coefficient = 0.852;
+                    coefficient = 0.546;
+                    break;
+                case "2":
+                    coefficient = 0.529;
+                    break;
+                case "3":
+                    coefficient = 0.542;
+                    break;
+                case "4":
+                    coefficient = 0.567;
+                    break;
+                case "6":
+                    coefficient = 0.598;
+                    break;
+                case "8":
+                    coefficient = 0.614;
+                    break;
+                case "10":
+                    coefficient = 0.626;
                     break;
             }
         }
@@ -187,14 +191,22 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if ((Ccp.Text != "") || (sn.Text != "") || (a.Text != ""))
+            {
+                double.TryParse(Ccp.Text, out stiffness);
+                double.TryParse(sn.Text, out deff);
+                double.TryParse(a.Text, out area);
+            }
+            else {
+                MessageBox.Show("Ошибка!", "Пустое значение");
+            }
 
+            dlina = ((2*stiffness*deff*deff*G)/(coefficient*strain));
             res.Text = Convert.ToString(coefficient);
             GBox.Text = Convert.ToString(G);
             strainBox.Text = Convert.ToString(strain);
             L.Text = Convert.ToString(dlina);
         }
-
-
 
     }
 }

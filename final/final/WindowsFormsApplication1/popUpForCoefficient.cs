@@ -36,5 +36,10 @@ namespace WindowsFormsApplication1
                 this.Close();
             }
         }
+
+        private void popUpForCoefficient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

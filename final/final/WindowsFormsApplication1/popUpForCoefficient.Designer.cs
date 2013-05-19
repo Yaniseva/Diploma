@@ -101,6 +101,7 @@
             this.Controls.Add(this.submit);
             this.Name = "popUpForCoefficient";
             this.Text = "popUpForCoefficient";
+            this.Load += new System.EventHandler(this.popUpForCoefficient_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

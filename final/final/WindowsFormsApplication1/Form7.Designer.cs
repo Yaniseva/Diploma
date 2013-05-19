@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.d1 = new System.Windows.Forms.TextBox();
             this.d = new System.Windows.Forms.TextBox();
             this.d1_label = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@
             this.L = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,7 +102,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 40);
             this.button1.TabIndex = 8;
-            this.button1.Text = "Расчитать";
+            this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -110,6 +112,8 @@
             this.res.Name = "res";
             this.res.Size = new System.Drawing.Size(116, 20);
             this.res.TabIndex = 9;
+            this.toolTip1.SetToolTip(this.res, "Коэффициент, характеризующий рациональность использования материала при деформаци" +
+                    "и кручения");
             // 
             // CircularRb
             // 
@@ -214,6 +218,8 @@
             this.label4.Size = new System.Drawing.Size(26, 15);
             this.label4.TabIndex = 15;
             this.label4.Text = "K =";
+            this.toolTip1.SetToolTip(this.label4, "Коэффициент, характеризующий рациональность использования материала при деформаци" +
+                    "и кручения");
             // 
             // GBox
             // 
@@ -221,6 +227,7 @@
             this.GBox.Name = "GBox";
             this.GBox.Size = new System.Drawing.Size(116, 20);
             this.GBox.TabIndex = 16;
+            this.toolTip1.SetToolTip(this.GBox, "Модуль упругости");
             // 
             // label5
             // 
@@ -231,6 +238,7 @@
             this.label5.Size = new System.Drawing.Size(26, 15);
             this.label5.TabIndex = 17;
             this.label5.Text = "G =";
+            this.toolTip1.SetToolTip(this.label5, "Модуль упругости");
             // 
             // strainBox
             // 
@@ -255,6 +263,7 @@
             this.Ccp.Name = "Ccp";
             this.Ccp.Size = new System.Drawing.Size(100, 20);
             this.Ccp.TabIndex = 20;
+            this.toolTip1.SetToolTip(this.Ccp, "Средняя жесткость подвески");
             // 
             // sn
             // 
@@ -269,6 +278,7 @@
             this.a.Name = "a";
             this.a.Size = new System.Drawing.Size(100, 20);
             this.a.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.a, "Площадь поперечного сечения");
             // 
             // label6
             // 
@@ -278,6 +288,7 @@
             this.label6.Size = new System.Drawing.Size(36, 13);
             this.label6.TabIndex = 23;
             this.label6.Text = "Сср =";
+            this.toolTip1.SetToolTip(this.label6, "Средняя жесткость подвески");
             // 
             // label7
             // 
@@ -296,6 +307,7 @@
             this.label8.Size = new System.Drawing.Size(24, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "A =";
+            this.toolTip1.SetToolTip(this.label8, "Площадь поперечного сечения");
             // 
             // L
             // 
@@ -303,6 +315,7 @@
             this.L.Name = "L";
             this.L.Size = new System.Drawing.Size(116, 20);
             this.L.TabIndex = 26;
+            this.toolTip1.SetToolTip(this.L, "Длина торсиона");
             // 
             // label
             // 
@@ -313,6 +326,7 @@
             this.label.Size = new System.Drawing.Size(25, 15);
             this.label.TabIndex = 27;
             this.label.Text = "L =";
+            this.toolTip1.SetToolTip(this.label, "Длина торсиона");
             // 
             // comboBox2
             // 
@@ -323,8 +337,9 @@
             "2",
             "3",
             "4",
-            "5",
-            "6"});
+            "6",
+            "8",
+            "10"});
             this.comboBox2.Location = new System.Drawing.Point(324, 256);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
@@ -401,5 +416,6 @@
         private System.Windows.Forms.TextBox L;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
