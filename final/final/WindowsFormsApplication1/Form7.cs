@@ -20,6 +20,7 @@ namespace WindowsFormsApplication1
         public Form7()
         {
             InitializeComponent();
+            clearFrom();
         }
 
         public double coefficient;
@@ -37,17 +38,56 @@ namespace WindowsFormsApplication1
             double.TryParse(a.Text, out area);
         }
 
+        public void clearFrom()
+        {
+            // текстовое поле и label для d1  
+            d1.Visible = false;
+            d1_label.Visible = false;
+
+            // текстовое поле и label для d
+            d.Visible = false;
+            d_label.Visible = false;
+
+            // текстовое поле и label для hbBox
+            hbBox.Visible = false;
+            hbBox_label.Visible = false;
+        }
+
+        public void showD1D()
+        {
+            // текстовое поле и label для d1  
+            d1.Visible = true;
+            d1_label.Visible = true;
+
+            // текстовое поле и label для d
+            d.Visible = true;
+            d_label.Visible = true;
+        }
+
+        public void showHb()
+        {
+            // текстовое поле и label для hbBox
+            hbBox.Visible = true;
+            hbBox_label.Visible = true;
+        }
+
         private void rbClick(object sender, EventArgs e)
         {
             switch (n)
             {
                 case 2: //RoundRb
                     {
+                        clearFrom();
                         coefficient = 1;
                     }
                     break;
                 case 1: //CircularRb
                     {
+                        // очищаем форму
+                        clearFrom();
+                        // показываем то что нам надо
+                        showD1D();
+
                         double.TryParse(d1.Text, out diametr1);
                         double.TryParse(d.Text, out diametr2);
                         //double.TryParse(Ccp.Text, out stiffness);
@@ -58,6 +98,11 @@ namespace WindowsFormsApplication1
                     break;
                 case 3: //SquareRb
                     {
+                        // очищаем форму
+                        clearFrom();
+                        // показываем то что нам надо
+                        showHb();
+                        
                         string hb1;
                         hb1 = hbBox.Text;
                         switch (hb1)
@@ -138,6 +183,8 @@ namespace WindowsFormsApplication1
             strainBox.Text = Convert.ToString(strain);
             L.Text = Convert.ToString(dlina);
         }
+
+        
 
     }
 }

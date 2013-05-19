@@ -30,8 +30,8 @@
         {
             this.d1 = new System.Windows.Forms.TextBox();
             this.d = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.d1_label = new System.Windows.Forms.Label();
+            this.d_label = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.res = new System.Windows.Forms.TextBox();
             this.CircularRb = new System.Windows.Forms.RadioButton();
@@ -40,7 +40,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.hb = new System.Windows.Forms.Label();
+            this.hbBox_label = new System.Windows.Forms.Label();
             this.hbBox = new System.Windows.Forms.TextBox();
             this.VidStali = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,25 +73,25 @@
             this.d.Size = new System.Drawing.Size(116, 20);
             this.d.TabIndex = 5;
             // 
-            // label1
+            // d1_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(269, 193);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "d1 = ";
+            this.d1_label.AutoSize = true;
+            this.d1_label.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.d1_label.Location = new System.Drawing.Point(269, 193);
+            this.d1_label.Name = "d1_label";
+            this.d1_label.Size = new System.Drawing.Size(47, 13);
+            this.d1_label.TabIndex = 6;
+            this.d1_label.Text = "d1 = ";
             // 
-            // label2
+            // d_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(269, 219);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "d =";
+            this.d_label.AutoSize = true;
+            this.d_label.Font = new System.Drawing.Font("MS Mincho", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.d_label.Location = new System.Drawing.Point(269, 219);
+            this.d_label.Name = "d_label";
+            this.d_label.Size = new System.Drawing.Size(31, 13);
+            this.d_label.TabIndex = 7;
+            this.d_label.Text = "d =";
             // 
             // button1
             // 
@@ -117,7 +117,7 @@
             this.CircularRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CircularRb.Location = new System.Drawing.Point(4, 83);
             this.CircularRb.Name = "CircularRb";
-            this.CircularRb.Size = new System.Drawing.Size(80, 19);
+            this.CircularRb.Size = new System.Drawing.Size(79, 19);
             this.CircularRb.TabIndex = 0;
             this.CircularRb.Text = "Кольцевой";
             this.CircularRb.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.RoundRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RoundRb.Location = new System.Drawing.Point(4, 33);
             this.RoundRb.Name = "RoundRb";
-            this.RoundRb.Size = new System.Drawing.Size(72, 19);
+            this.RoundRb.Size = new System.Drawing.Size(71, 19);
             this.RoundRb.TabIndex = 1;
             this.RoundRb.Text = "Круглый";
             this.RoundRb.UseVisualStyleBackColor = true;
@@ -185,15 +185,15 @@
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox_Click);
             // 
-            // hb
+            // hbBox_label
             // 
-            this.hb.AutoSize = true;
-            this.hb.Font = new System.Drawing.Font("MS Mincho", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hb.Location = new System.Drawing.Point(270, 256);
-            this.hb.Name = "hb";
-            this.hb.Size = new System.Drawing.Size(40, 12);
-            this.hb.TabIndex = 12;
-            this.hb.Text = "h/b =";
+            this.hbBox_label.AutoSize = true;
+            this.hbBox_label.Font = new System.Drawing.Font("MS Mincho", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.hbBox_label.Location = new System.Drawing.Point(270, 256);
+            this.hbBox_label.Name = "hbBox_label";
+            this.hbBox_label.Size = new System.Drawing.Size(40, 12);
+            this.hbBox_label.TabIndex = 12;
+            this.hbBox_label.Text = "h/b =";
             // 
             // hbBox
             // 
@@ -300,7 +300,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(294, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(24, 13);
+            this.label8.Size = new System.Drawing.Size(23, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "A =";
             // 
@@ -317,7 +317,7 @@
             this.label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label.Location = new System.Drawing.Point(731, 241);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(25, 15);
+            this.label.Size = new System.Drawing.Size(24, 15);
             this.label.TabIndex = 27;
             this.label.Text = "L =";
             // 
@@ -341,13 +341,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.VidStali);
             this.Controls.Add(this.hbBox);
-            this.Controls.Add(this.hb);
+            this.Controls.Add(this.hbBox_label);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.res);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.d_label);
+            this.Controls.Add(this.d1_label);
             this.Controls.Add(this.d);
             this.Controls.Add(this.d1);
             this.Controls.Add(this.groupBox1);
@@ -365,8 +365,8 @@
 
         private System.Windows.Forms.TextBox d1;
         private System.Windows.Forms.TextBox d;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label d1_label;
+        private System.Windows.Forms.Label d_label;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox res;
         private System.Windows.Forms.RadioButton CircularRb;
@@ -375,7 +375,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label hb;
+        private System.Windows.Forms.Label hbBox_label;
         private System.Windows.Forms.TextBox hbBox;
         private System.Windows.Forms.Label VidStali;
         private System.Windows.Forms.Label label4;
