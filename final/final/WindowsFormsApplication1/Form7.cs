@@ -121,6 +121,10 @@ namespace WindowsFormsApplication1
                 case "1":
                     coefficient = 0.658;
                     break;
+
+                case "1.5":
+                    coefficient = 0.852;
+                    break;
             }
         }
         private void comboBox_Click(object sender, EventArgs e)
