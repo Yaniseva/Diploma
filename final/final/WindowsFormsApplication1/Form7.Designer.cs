@@ -41,7 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.hbBox_label = new System.Windows.Forms.Label();
-            this.hbBox = new System.Windows.Forms.TextBox();
             this.VidStali = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.GBox = new System.Windows.Forms.TextBox();
@@ -56,6 +55,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.L = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,7 +117,7 @@
             this.CircularRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CircularRb.Location = new System.Drawing.Point(4, 83);
             this.CircularRb.Name = "CircularRb";
-            this.CircularRb.Size = new System.Drawing.Size(79, 19);
+            this.CircularRb.Size = new System.Drawing.Size(80, 19);
             this.CircularRb.TabIndex = 0;
             this.CircularRb.Text = "Кольцевой";
             this.CircularRb.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.RoundRb.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RoundRb.Location = new System.Drawing.Point(4, 33);
             this.RoundRb.Name = "RoundRb";
-            this.RoundRb.Size = new System.Drawing.Size(71, 19);
+            this.RoundRb.Size = new System.Drawing.Size(72, 19);
             this.RoundRb.TabIndex = 1;
             this.RoundRb.Text = "Круглый";
             this.RoundRb.UseVisualStyleBackColor = true;
@@ -194,13 +194,6 @@
             this.hbBox_label.Size = new System.Drawing.Size(40, 12);
             this.hbBox_label.TabIndex = 12;
             this.hbBox_label.Text = "h/b =";
-            // 
-            // hbBox
-            // 
-            this.hbBox.Location = new System.Drawing.Point(324, 252);
-            this.hbBox.Name = "hbBox";
-            this.hbBox.Size = new System.Drawing.Size(116, 20);
-            this.hbBox.TabIndex = 13;
             // 
             // VidStali
             // 
@@ -300,7 +293,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(294, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 13);
+            this.label8.Size = new System.Drawing.Size(24, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "A =";
             // 
@@ -317,15 +310,33 @@
             this.label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label.Location = new System.Drawing.Point(731, 241);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(24, 15);
+            this.label.Size = new System.Drawing.Size(25, 15);
             this.label.TabIndex = 27;
             this.label.Text = "L =";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1",
+            "1.5",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"});
+            this.comboBox2.Location = new System.Drawing.Point(324, 256);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 28;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_Click);
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 434);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label);
             this.Controls.Add(this.L);
             this.Controls.Add(this.label8);
@@ -340,7 +351,6 @@
             this.Controls.Add(this.GBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.VidStali);
-            this.Controls.Add(this.hbBox);
             this.Controls.Add(this.hbBox_label);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
@@ -376,7 +386,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label hbBox_label;
-        private System.Windows.Forms.TextBox hbBox;
         private System.Windows.Forms.Label VidStali;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox GBox;
@@ -391,5 +400,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox L;
         private System.Windows.Forms.Label label;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

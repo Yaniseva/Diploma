@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
             d_label.Visible = false;
 
             // текстовое поле и label для hbBox
-            hbBox.Visible = false;
+            comboBox2.Visible = false;
             hbBox_label.Visible = false;
         }
 
@@ -67,7 +67,8 @@ namespace WindowsFormsApplication1
         public void showHb()
         {
             // текстовое поле и label для hbBox
-            hbBox.Visible = true;
+            comboBox2.Visible = true;
+            //.Visible = true;
             hbBox_label.Visible = true;
         }
 
@@ -102,34 +103,26 @@ namespace WindowsFormsApplication1
                         clearFrom();
                         // показываем то что нам надо
                         showHb();
-                        
-                        string hb1;
-                        hb1 = hbBox.Text;
-                        switch (hb1)
-                        {
-                            case "1":
-                                coefficient = 0.618;
-                                break;
-                            case "1,5":
-                                coefficient = 0.546;
-                                break;
-                            case "2":
-                                coefficient = 0.529;
-                                break;
-                            case "3":
-                                coefficient = 0.542;
-                                break;
-                            case "4":
-                                coefficient = 0.567;
-                                break;
-                        }
+                        break;
                     }
-                    break;
-                default:
-                    MessageBox.Show("Error", "Не выбран коэффициент"); break;
             }
         }
 
+        private void comboBox2_Click(object sender, EventArgs e)
+        {
+            string tmp = comboBox2.SelectedItem.ToString();
+            tmp = comboBox2.Text;
+            if (String.IsNullOrEmpty(tmp))
+            {
+                MessageBox.Show("Error", "ВЫБЕРИ H/B!");
+            }
+            switch (tmp)
+            {
+                case "1":
+                    coefficient = 0.658;
+                    break;
+            }
+        }
         private void comboBox_Click(object sender, EventArgs e)
         {
             string text = comboBox1.SelectedItem.ToString();
